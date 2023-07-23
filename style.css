@@ -1,0 +1,147 @@
+body {
+    margin: 0px;
+    background-color: pink;
+}
+
+.toff {
+    height: 15vh;
+    border-radius: 20px 10px 20px 10px;
+    margin: 5px;
+    font-size: 3vh;
+    margin: 20px;
+    mix-blend-mode: ;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2vh;
+}
+
+nav {
+    border: 3px solid white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 8px 10px grey;
+    background-color: pink;  
+    margin: 5px;  
+    margin-bottom: 20px;
+}
+
+
+.toffee {
+    font-size: 3vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #ff157e;
+    text-shadow: 2px 2px white;
+    font-weight: bolder;
+}
+
+a { 
+    color: whitesmoke;
+}
+
+a:hover {
+    background-color: #de5db7;
+    font-size: 3vh;
+    border-radius: 10%;
+    padding: 4px;
+}
+
+.paw {
+    height: 100px;
+    margin-top: 20px;
+    mix-blend-mode: multiply;
+    position: relative;
+}
+
+.par {
+    color: whitesmoke;
+    font-size: 3vh;
+    column-count: 2;
+    margin: 5px;
+} 
+
+.foot {
+    background-color: whitesmoke;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.tof1 {
+    height: 100px;   
+    margin: 5px;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.tof2 {
+    height: 100px;
+    margin: 5px;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.tof3 {
+    height: 100px;
+    margin: 5px;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.picture {
+    background-color: rgba(255,255,255,0.4);  
+    margin-bottom: 20px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+}
+
+/* style.css */
+.tof1,
+.tof2,
+.tof3 {
+  animation: floatingAnimation 3s ease-in-out infinite;
+}
+
+@keyframes floatingAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+ 
+.favorite {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.tof5 {
+    height: 10vh;
+    width: 10vh; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transform: translate(200%);
+    box-shadow: 6px 10px 5px black;
+    margin-bottom: 20px;
+}
+
+
+.tof-fave {
+    font-weight: bolder; 
+    text-align: center;
+    font-size: 2vh;
+}
